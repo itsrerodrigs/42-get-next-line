@@ -6,7 +6,7 @@
 /*   By: renrodri <renrodri@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 13:53:39 by renrodri          #+#    #+#             */
-/*   Updated: 2024/12/28 01:11:27 by renrodri         ###   ########.fr       */
+/*   Updated: 2025/01/03 15:49:18 by renrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_strchr(char const *s, int c)
 	int		i;
 	char	*string_to_search_in;
 
-	if (!s || !c)
+	if (!s)
 		return (NULL);
 	i = 0;
 	string_to_search_in = (char *)s;
@@ -88,15 +88,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	new_str[j] = '\0';
 	return (new_str);
 }
-
-/*int	ft_endl(char	*buffer)
-{
-	size_t	i;
-
-	i = 0;
-	while (buffer[i] != '\n' && buffer[i] != '\0')
-		i++;
-	if (buffer[i] == '\n')
-		return (1);
-	return (0);
-}*/

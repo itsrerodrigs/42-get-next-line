@@ -6,7 +6,7 @@
 /*   By: renrodri <renrodri@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 13:58:07 by renrodri          #+#    #+#             */
-/*   Updated: 2024/12/28 01:14:27 by renrodri         ###   ########.fr       */
+/*   Updated: 2025/01/03 15:49:12 by renrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <fcntl.h>
-# include <string.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
@@ -31,7 +30,6 @@ char	*read_fd(int fd, char *stash);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strjoin(char *str1, char *str2);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
-int		ft_endl(char *buffer);
 size_t	ft_strlen(char const *string);
 
 #endif
