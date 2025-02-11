@@ -77,6 +77,7 @@ You can test your project implementation using the following command, adjusting 
 
 ```bash
 gcc -Wall -Werror -Wextra -D BUFFER_SIZE=<buffer_size> get_next_line.c get_next_line_utils.c && ./a.out
+```
 
 Alternatively, you can use third-party testing tools to ensure your Get Next Line implementation works correctly. Here are some popular testers:
 
