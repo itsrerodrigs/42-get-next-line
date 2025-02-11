@@ -6,7 +6,7 @@
 /*   By: renrodri <renrodri@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 13:53:39 by renrodri          #+#    #+#             */
-/*   Updated: 2025/02/11 18:44:52 by renrodri         ###   ########.fr       */
+/*   Updated: 2025/02/11 20:49:51 by renrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ char	*ft_strchr(char const *s, int c)
 	int		i;
 	char	*string_to_search_in;
 
-	if (!s || !c)
+	if (!s)
 		return (NULL);
 	i = 0;
 	string_to_search_in = (char *)s;
