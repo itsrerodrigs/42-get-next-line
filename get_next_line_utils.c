@@ -6,12 +6,13 @@
 /*   By: renrodri <renrodri@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 13:53:39 by renrodri          #+#    #+#             */
-/*   Updated: 2025/01/03 15:49:18 by renrodri         ###   ########.fr       */
+/*   Updated: 2025/02/11 20:49:51 by renrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
+// returns the lenght of the given string
 size_t	ft_strlen(char const *string)
 {
 	size_t	i;
@@ -24,6 +25,7 @@ size_t	ft_strlen(char const *string)
 	return (i);
 }
 
+// finds the 1st occurrence of a character in a string and returns its pointer
 char	*ft_strchr(char const *s, int c)
 {
 	int		i;
@@ -42,6 +44,7 @@ char	*ft_strchr(char const *s, int c)
 	return (0);
 }
 
+// joins two strings and returns the new concatenated string
 char	*ft_strjoin(char *str1, char *str2)
 {
 	char		*concat_string;
@@ -70,6 +73,7 @@ char	*ft_strjoin(char *str1, char *str2)
 	return (concat_string);
 }
 
+// returns a substring of the given string
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*new_str;
