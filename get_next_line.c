@@ -6,14 +6,12 @@
 /*   By: renrodri <renrodri@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 14:33:35 by renrodri          #+#    #+#             */
-/*   Updated: 2025/02/12 23:12:07 by renrodri         ###   ########.fr       */
+/*   Updated: 2025/02/12 23:13:09 by renrodri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-// reads the fd and returns the temp buffer with the current data
-char	*read_fd(int fd, char *temp)
 // reads the fd and returns the temp buffer with the current data
 char	*read_fd(int fd, char *temp)
 {
